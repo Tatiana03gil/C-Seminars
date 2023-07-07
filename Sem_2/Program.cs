@@ -51,3 +51,20 @@ Console.WriteLine ("Наше случайное число: " + Rand);
 int result = MaxNum (Rand);
 Console.WriteLine ("Больше цифра " + result);
 */
+
+/*Напишите программу, которая принимает на вход два числа
+ и проверяет, является ли одно число квадратом другого.*/
+
+/*bool Kvadr (int num1, int num2){
+
+ if (num1 == num2*num2 || num2 == num1*num1) return true;
+ else return false;}
+
+Console.WriteLine ("Введите первое число: ");
+int number1 = Convert.ToInt32 (Console.ReadLine ());
+Console.WriteLine ("Введите второе число: ");
+int number2 = Convert.ToInt32 (Console.ReadLine ());
+
+bool result = Kvadr (number1, number2);
+Console.WriteLine ("Одно число квадрат другого? " + result);
+*/
